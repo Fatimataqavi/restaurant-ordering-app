@@ -1,0 +1,142 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Smythe', system-ui;
+    color:#000;
+    max-width: 900px;
+} 
+header{
+    margin: 0;
+    padding: 20px;
+   background: url("https://cdn.sortiraparis.com/images/80/62403/923742-jefe-burger-le-restaurant-du-rappeur-ninho-et-du-top-chef-xavier-pincemin-debarque-a-paris.jpg") no-repeat center center;
+    background-size: cover;
+     color: white;
+}
+h1,h2{
+    font-weight: 400;
+}
+h1{
+    margin-bottom: 0;
+     font-size: 32px;
+}
+h2{
+    margin-top: 0;
+    font-size: 22px;
+}
+.container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   margin: 0 auto;
+   border-bottom: 1px solid #D2D2D2;
+   
+}
+.item-emoji{
+    font-size: 78.72px;
+    width: 30%;
+    margin: 0;
+}
+.item-description{
+    width: 80%;
+}
+.item-description h6{
+    font-size: 20px;
+    margin-top: 0;
+}
+.item-description h4{
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.item-description p{
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+.add-icon{
+    border: 1px solid #DEDEDE;
+    border-radius: 50%;
+    padding: 0 14px 2px 10px;
+    color:#3C3C3C;
+    font-size: 25px;
+}
+.order-section{
+    width: 90%;
+    margin: 10px auto;
+}
+.order-inner{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.order-title span{
+    color: #BBBBBB;
+    font-size: 12px;
+     margin-left: 10px;
+}
+.order-inner p{
+    margin: 5px 0;
+     font-size: 28px;
+}
+
+.hidden{
+    display: none;
+}
+
+.final-order{
+    font-weight: bold;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+button{
+    background: #16DB99;
+    border: none;
+    color: #fff;
+    font-weight: inherit;
+    padding: 15px;
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.modal{
+    position: fixed;
+    display: none;
+    background: #fff;
+    width: 50%;
+    max-width: 450px;
+    height: 300px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 2px #757575;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Verdana;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap:20px;
+}
+form input{
+    border: 1px solid #757575; 
+    padding: 10px 15px;
+    font-size: 15px;
+}
+.success-msg{
+    font-size: 32px;
+    background: #ECFDF5;
+    padding: 20px;
+    color: #065F46;
+    text-align: center;
+    margin: 20px auto;
+}
